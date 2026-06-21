@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "password": "adminpassword",
+    "expectedMessage": "Welcome admin"
+  },
+  {
+    "username": "invalid_user",
+    "password": "wrongpassword",
+    "expectedMessage": "Invalid credentials"
+  },
+  {
+    "username": "locked_out",
+    "password": "password123",
+    "expectedMessage": "Account locked"
+  }
+]
